@@ -11,7 +11,7 @@ job "game" {
       driver = "docker"
 
       config {
-        image = "jnanendra1919/tchard:v$BUILD_ID"
+        image = "jnanendra1919/tchard:v1"
 
         auth {
            username = "jnanendra1919"
